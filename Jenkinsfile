@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('run docker file') {
             steps {
-                  sh ("docker build -t thakur57/nodeapp:latest .")
+                  sh ("sudo docker build -t thakur57/nodeapp:latest .")
             }
         }
     }
